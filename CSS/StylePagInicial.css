@@ -7,9 +7,6 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
-
-
-
 .text-obj{
     background: #ebffee ;
 }
@@ -28,28 +25,17 @@
 }
 
 .t-card{
-   display:flex;
-   
-
+    display:flex;
 }
 
 .shadow-lg{
-    color: rgba(0, 141, 47, 0.968);
+    color: rgba(0, 90, 30, 0.968);
     text-align: center;
 }
 
 .card{
-    margin: 25px;
-    
-}
-
-
-/* Reseting */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    position: absolute;
 }
 
 body{
@@ -81,8 +67,6 @@ body{
     transform-style: preserve-3d;
     transition: 0.9s ease;
 }
-
-
 
 .container .box .body .imgContainer{
     position: absolute;
@@ -121,7 +105,7 @@ body{
 .container .box .body .content div{
     transform-style: preserve-3d;
     padding: 45px;
-    background: linear-gradient(45deg, #ffffff,#1c8607);
+    background: linear-gradient(45deg, #b4e6b2,#126900);
     transform: translateZ(100px);
 }
 
@@ -131,13 +115,20 @@ body{
 
 .shadow-none{
     color: #1c8607;
-    
-   
 }
-
 
 footer{
     max-width: 100;
-
 }
 
+#FORM_FaleConosco{
+    background-color: #c0f1b265;
+    width: auto;
+}
+
+#sel_estado{
+    background-color: white;
+    width: 920px;
+    height: 40px;
+    border-radius: 5%;
+}
