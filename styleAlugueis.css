@@ -1,0 +1,15 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    outline-width: 0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#text-titulo{
+    text-align: center;
+    color: rgb(15, 73, 0);
+}
+
+
