@@ -12,3 +12,15 @@
     
 }
  
+#img_waze{
+    height: 600px;
+    
+}
+
+footer{
+    max-width: 100;
+}
+
+#card-text{
+    text-align: justify;
+}
