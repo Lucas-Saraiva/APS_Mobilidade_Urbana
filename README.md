@@ -11,3 +11,4 @@ O principal objetivo deste trabalho é investigar e apresentar as diferentes for
 * Henrique Salles Duarte
 * Lucas Saraiva Sousa
 * Sara de Oliveira Viana
+* Gustavo Alves da Silva
