@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de CO2</title>
+    <script type="text/JavaScript" src="../JS/indexHome.js"></script>
+</head>
+
+<body onload="alterarInputs()">
+
+    <div>
+        <label>Automóvel</label>
+        <select name="automovel" id="automovel" onchange="alterarInputs()">
+            <option selected value="1">Carro</option>
+            <option value="2">Moto</option>
+        </select>
+    </div>
+
+    <div id="idModeloCarro">
+        <label>Modelo do Carro</label>
+        <select name="modeloCarro" id="modeloCarro">
+            <option value="1">1.0 á 1.4</option>
+            <option value="2">1.5 á 1.9</option>
+            <option value="3">2.0 á 3.0</option>
+        </select>
+    </div>
+
+    <div id="idModeloMoto">
+        <label>Modelo da Moto</label>
+        <select name="modeloMoto" id="modeloMoto">
+            <option value="1">até 150cc</option>
+            <option value="2">até 400cc</option>
+            <option value="3">acima de 400cc</option>
+        </select>
+    </div>
+
+    <div id="idCombustivel">
+        <label>Combustível</label>
+        <select name="combustivel" id="combustivel">
+            <option value="1">Gasolina</option>
+            <option value="2">Álcool(Etanol)</option>
+            <option value="3">Disel</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Km rodados</label>
+        <input id="kmRodado" name="kmRodado" type="number">
+    </div>
+
+    <button onclick="on_calc_co2()">Calcular</button>
+
+    <div>
+        <label>co2 Emitido</label>
+        <input type="text" id="co2Emitido">
+    </div>
+
+    <div>
+        <label>Valor da economia</label>
+        <input type="text" id="valorEconomia">
+    </div>
+
+</body>
+
+</html>
