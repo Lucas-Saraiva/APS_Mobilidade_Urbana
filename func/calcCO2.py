@@ -22,7 +22,7 @@ while x :
 
         print("Opções de combustiveis: \n" 
                 "Gasolina       - Digite 1 \n"
-                "Álcool(Etanol) - Digite 2 \n"
+                "Álcol(Etanol) - Digite 2 \n"
                 "Disel          - Digite 3")
 
         sleep(2)
@@ -45,7 +45,7 @@ while x :
                     case 1:
                         kmLitro = 16
                     case 2:
-                        kmLitro = 12
+                        kmLitro = 18
                     case 3:
                         kmLitro = 24
                     case _:
@@ -57,7 +57,7 @@ while x :
                     case 1:
                         kmLitro = 12
                     case 2:
-                        kmLitro = 10
+                        kmLitro = 15
                     case 3:
                         kmLitro = 22
                     case _:
@@ -69,7 +69,7 @@ while x :
                     case 1:
                         kmLitro = 8
                     case 2:
-                        kmLitro = 6
+                        kmLitro = 10
                     case 3:
                         kmLitro = 18
                     case _:
@@ -93,11 +93,11 @@ while x :
 
         match modeloMoto:
             case 1:
-                kmLitro = 50
+                kmLitro = 35
             case 2:
                 kmLitro = 40
             case 3:
-                kmLitro = 35
+                kmLitro = 50
             case _:
                 opcaoInvalida("Modelo da moto inválida!")
                 continue

@@ -45,7 +45,7 @@ function on_calc_co2() {
                             kmLitro = 16;
                             break;
                         case "2":
-                            kmLitro = 12;
+                            kmLitro = 18;
                             break;
                         case "3":
                             kmLitro = 24;
@@ -58,7 +58,7 @@ function on_calc_co2() {
                             kmLitro = 12;
                             break;
                         case "2":
-                            kmLitro = 10;
+                            kmLitro = 15;
                             break;
                         case "3":
                             kmLitro = 22;
@@ -70,10 +70,13 @@ function on_calc_co2() {
                     switch (combustivel) {
                         case "1":
                             kmLitro = 8;
+                            break;
                         case "2":
-                            kmLitro = 6;
+                            kmLitro = 10;
+                            break;
                         case "3":
                             kmLitro = 18;
+                            break;
                     }
                     break;
             }
@@ -81,13 +84,13 @@ function on_calc_co2() {
         } else if (automovel == 2) {
             switch (modeloCarro) {
                 case "1":
-                    kmLitro = 50;
+                    kmLitro = 35;
                     break;
                 case "2":
                     kmLitro = 40;
                     break;
                 case "3":
-                    kmLitro = 35;
+                    kmLitro = 50;
                     break;
             }
         }
